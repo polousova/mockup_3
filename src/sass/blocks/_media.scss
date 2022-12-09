@@ -1,3 +1,22 @@
+@media (max-width: 1140px) {
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
+        .tns-nav {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+            button {
+                width: 30px;
+                background-color: lightgrey;
+            }
+            .tns-nav-active {
+                background-color: black;
+            }
+        }
+}
+
 @media (max-width: 1024px) {
     .header {
         padding-left: 30px;
@@ -38,7 +57,15 @@
     } 
     .feed_form {
         margin: 0 auto;
-    } 
+    }
+    .carousel { 
+        .tns-item img {
+            width: 450px;
+        }
+        &__inner {
+            width: 600px;
+        }
+    }
 }
 
 @media (max-width: 800px) {
@@ -164,9 +191,7 @@
         &__icon {
             font-size: 12px;
         }
-    }
-}
-@media (max-width: 570px) {
+    }   
     .header {
             flex-direction: column;
             justify-content: center;
@@ -181,6 +206,13 @@
         padding: 16px 0 16px;
         &__icons {
             width: 360px;
+        }
+    }
+    .carousel {
+        .tns-outer {
+            img {
+                width: 380px;
+            }
         }
     }
 }
@@ -228,4 +260,12 @@
     .feed_form {
         width: 180px;
     }
+    .carousel {
+        .tns-outer {
+            img {
+                width: 280px;
+            }
+        }
+    }
+}
 }

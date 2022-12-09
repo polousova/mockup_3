@@ -5,12 +5,19 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
+    position: relative;
 }
 @import 'promo.scss';
 @import 'header.scss';
 @import 'buttons.scss';
 @import 'advantages.scss';
-@import 'media.scss';
+
 @import 'consultation.scss';
 @import 'titles.scss';
 @import 'forms.scss';
+@import 'carousel.scss';
+@import 'media.scss';
+@import 'catalog.scss';
+@import 'footer.scss';
+@import 'feed.scss';
+@import 'modal.scss';
