@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/font.css">
         <!--<link rel="stylesheet" type="text/css" href="css/slick.css"/>-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="sass/css/style.min.css">
     </head>
     <body>
@@ -66,7 +67,7 @@
                             переплыли Босфор, готовятся к соревнованиям по триатлону!</p>
                     </div>
                     <div class="advantages__item">
-                        <img src="icons/advantages/heart.png" alt="heart">
+                        <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
                         <h3>Заботимся о здоровье</h3>
                         <p>Мы работаем для того, чтобы Ваши занятия спортом шли на пользу 
                             Вашему здоровью и были в радость Вам и Вашим близким!</p>
@@ -96,7 +97,7 @@
             </div>
         </section>
         
-        <section class="carousel">
+        <div class="carousel">
             <div class="container">
                 <div class="carousel__inner">
                     <div>
@@ -112,7 +113,7 @@
                 <button type="button" class="prev"><img src="icons/left.svg"></button>
                 <button type="button" class="next"><img src="icons/right.svg"></button>
             </div>                     
-        </section>
+        </div>
 
         <section class="catalog">
             <div class="container">
@@ -427,7 +428,7 @@
             <div class="container">
                 <h2 class="title">отзывы клиентов</h2>
                 <div class="feed__wrapper">
-                    <div class="feed__item">
+                    <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-delay="1s">
                         <img src="img/irina.png" alt="runner1" class="feed__img">
                         <div>
                             <h3 class="feed__item-subtitle">Ирина Иванченко </h3>
@@ -437,7 +438,7 @@
                             <p class="feed__item-descr">Спасибо, RunSmart!</p>
                         </div>
                     </div>
-                    <div class="feed__item">
+                    <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-delay="1s">
                         <img src="img/ivan.png" alt="runner2" class="feed__img">
                         <div>
                             <h3 class="feed__item-subtitle">Иван Сёмочкин</h3>
@@ -446,7 +447,7 @@
                             <p class="feed__item-descr">С ними подготовился к своему первому полумарафону! Спасибо!!!</p>
                         </div>
                     </div>
-                    <div class="feed__item">
+                    <div class="feed__item animate__animated animate__fadeInUp wow" data-wow-delay="1s">
                         <img src="img/julia.png" alt="runner3" class="feed__img">
                         <div>
                             <h3 class="feed__item-subtitle">Юлия Дашкина</h3>
@@ -515,12 +516,13 @@
 
         <script src="js/jquery-3.6.1.min.js"></script>
         <!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <!--<script src="js/slick.min.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
